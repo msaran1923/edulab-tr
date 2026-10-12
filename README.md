@@ -2,14 +2,37 @@
 
 **Türkçe** · [English](../edulab-en/README.md) · [简体中文](https://github.com/wy51ai/edulab/blob/master/README.zh-CN.md)
 
+> **Yerelleştirme notu**: Bu, orijinal [wy51ai/edulab](https://github.com/wy51ai/edulab) projesinin Türkçe yerelleştirilmiş sürümüdür. Yetenek açıklamaları, tetikleyici kelimeler ve iş akışı talimatları çevrilmiştir. Temel hesaplama çekirdekleri, şablonlar ve medya dosyaları değişmeden kalmıştır.
+
 Akademik problemleri **etkileşimli ders web sayfalarına** ve **anlatımlı açıklayıcı videolara** dönüştüren eğitim yetenekleri koleksiyonu.
+
+## Nasıl kullanılır
+
+1. **Yetenekleri kurun** (birini seçin):
+   ```bash
+   npx skills add msaran1923/edulab-tr
+   ```
+   Veya Claude Code eklentisi olarak:
+   ```
+   /plugin marketplace add msaran1923/edulab-tr
+   /plugin install edulab
+   ```
+
+2. **Bir yeteneği tetikleyin** — Türkçe olarak ne istediğinizi tarif edin, örneğin:
+   - “Bu küp problemi için etkileşimli bir katı geometri sayfası oluştur”
+   - “Bu elips kiriş uzunluğu problemi için analitik geometri çözüm sayfası yap”
+   - “Bu matematik problemini açıklayıcı bir videoya dönüştür”
+
+3. **Ajan yetenek iş akışını takip eder**: sympy çekirdeği ile kesin çözer, kendi içinde bağımsız bir HTML sayfası (veya video) oluşturur ve sonucu geçerli dizininize teslim eder.
+
+4. **Videolar için**: Türkçe ses kullanmak için `TTS_ENGINE=edge` ve bir Türkçe ses (ör. `tr-TR-EmelNeural`) ayarlayın.
 
 ## Kurulum
 
 **Önerilen** — [skills](https://github.com/vercel-labs/skills) ile tek komutla kurun:
 
 ```bash
-npx skills add wy51ai/edulab
+npx skills add msaran1923/edulab-tr
 ```
 
 Daha sonra en son sürüme güncellemek için:
@@ -18,12 +41,12 @@ Daha sonra en son sürüme güncellemek için:
 npx skills update
 ```
 
-> **Not:** `npx skills update` yalnızca **zaten kurulu** olan yetenekleri yeniler — depoya yeni eklenen yetenekleri otomatik olarak çekmez. Bu depo yeni bir yetenek kazandığında (ör. yeni bir `edu-*`), tekrar `npx skills add wy51ai/edulab` çalıştırın.
+> **Not:** `npx skills update` yalnızca **zaten kurulu** olan yetenekleri yeniler — depoya yeni eklenen yetenekleri otomatik olarak çekmez. Bu depo yeni bir yetenek kazandığında (ör. yeni bir `edu-*`), tekrar `npx skills add msaran1923/edulab-tr` çalıştırın.
 
 Veya Claude Code eklenti pazarı olarak kullanın:
 
 ```
-/plugin marketplace add wy51ai/edulab
+/plugin marketplace add msaran1923/edulab-tr
 /plugin install edulab
 ```
 
