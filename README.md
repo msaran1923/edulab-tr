@@ -31,7 +31,7 @@ Kurulduktan sonra yetenekler tetikleyici kelimelerinde otomatik etkinleşir ve m
 
 ## Yetenek: edu-solid-geometry
 
-![edu-solid-geometry demo](edu-solid-geometry.gif)
+![edu-solid-geometry demo](edu-solid-geometry.jpg)
 
 Bir katı geometri problemini kendi içinde bağımsız etkileşimli bir ders sayfasına çözer. Üç giriş noktası:
 
@@ -67,7 +67,7 @@ python3 lib/geometry_kernel.py                     # kernel yerleşik kendi kend
 
 ## Yetenek: edu-analytic-geometry
 
-![edu-analytic-geometry demo](edu-analytic-geometry.gif)
+![edu-analytic-geometry demo](edu-analytic-geometry.jpg)
 
 Bir analitik geometri (konik kesitler) problemini kendi içinde bağımsız etkileşimli bir ders sayfasına çözer. Yukarıdakiyle aynı üç giriş noktası (metin / görüntü / rastgele). **2D Canvas tahtası + KaTeX** üzerine kurulu, genel, veri odaklı etkileşimli motor: bir parametre kaydırıcısı türetilmiş yapıları (doğru∩konik, konik üzerindeki nokta, merkezi yansıma, teğet…) ve canlı okumaları yönlendirir, teorik aralık çubuğu veya sabit değer göstergesi ile.
 
